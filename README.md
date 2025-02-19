@@ -6,8 +6,7 @@ This is a simple JavaScript-based Show Message. It shows a message in the box be
 
 ## Features
 
-- Calculates 2.5% Zakah from the entered amount.
-- Displays appropriate messages for invalid inputs.
+- Displays the entered message below.
 - Light/Dark mode toggle.
 - Arabic/English toggle
 - Built with Bootstrap and scss for styling.
