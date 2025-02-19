@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/all.min.css" />
+    <link rel="stylesheet" href="Css/normalize.min.css" />
+    <link rel="stylesheet" href="Css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Css/style.css" />
+
+    <title>Show Message</title>
+  </head>
+  <body class="vh-100 d-flex justify-content-center align-items-center">
+    <button
+      class="btn btn-dark rounded-5 position-absolute top-0 start-0 m-2"
+      id="theme"
+    >
+      <i class="fa-solid fa-moon"></i>
+    </button>
+    <button
+      class="btn btn-light rounded-5 position-absolute top-0 start-1 m-2"
+      id="lang"
+    >
+      <i class="fa-solid fa-globe"></i>
+    </button>
+    <div class="PMB d-flex flex-wrap justify-content-center">
+      <input
+        id="inpt"
+        type="text"
+        placeholder="Enter Message"
+        class="w-100 border-info border-1 rounded p-2"
+      />
+      <button id="btn" class="btn btn-primary d-block w-100 mt-1">
+        Add Message
+      </button>
+      <p id="msg" class="mt-4 fw-bold"></p>
+    </div>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/Logic.js"></script>
+  </body>
+</html>
